@@ -1,0 +1,159 @@
+
+.App{
+  margin: 0px;
+  padding: 0px;
+}
+
+.sign-in-page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  background-color: aliceblue;
+  z-index: 1000;
+  
+}
+.New-sign-container{
+  display: flex;
+  flex-direction: column;
+  width:  300px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 0.2px 0.2px 30px gray;
+  border-radius: 5px;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  gap: 15px;
+}
+.data{
+  width: 100%;
+  height: 200px;
+  background-color: gray;
+  position: absolute;
+  top: 500px;
+}
+.warning{
+  color: red;
+  display: inline;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.symbol{
+  font-size: 15px;
+  padding: 0px;
+  margin: 0;
+}
+.sign-in-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  justify-content: center;
+width: 80%;
+height: 200px ;
+background-color: rgb(255, 255, 255);
+}
+.sign-in-warning{
+  width: 100%;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: red;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+  width: 100%;
+ 
+}
+.content-container{
+  width: 100%;
+  height:500px;
+  padding-top: 20px;
+  /* background-color: rgb(221, 182, 132); */
+
+}
+.row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  align-items: start;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+.col{
+  width: 80%;
+  height: 100%;
+  /* background-color: rgb(44, 127, 199); */
+  display: flex;
+  /* border: 10px solid black; */
+  justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inside-name{
+  margin: 0%;
+}
+.home-profile{
+  color: white;
+ 
+}
+.form-edit{
+  width: 100%;
+  height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+ align-items: center;
+}
+.form-background{
+  width: 60%;
+  height: 80%;
+  display: flex;
+flex-direction: column;
+  background-color: white;
+  box-shadow: 5px 5px 30px 0px rgb(165, 165, 165);
+  border-radius: 5px;
+  padding: 10px;
+  border: 0.1px solid gray;;
+ /* align-items: center; */
+  justify-content:space-evenly;
+  overflow: hidden;
+}
+.form-edit-top{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.error-container{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.input-field{
+  outline-color: #1769aa;
+  width: 99%;
+ display: flex;
+
+ flex-direction: column;
+}
+.form-button-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.delt-item{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
